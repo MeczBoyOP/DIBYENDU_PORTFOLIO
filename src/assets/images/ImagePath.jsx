@@ -1,7 +1,25 @@
 import CV from './curriculum-vitae.png';
+import UiUx from './ui-ux.png';
+import WebDesign from './web-design.png';
+import MobileDesign from './mobile-app.png';
+import Profile from './profile.png';
+
+import Finance from './finance.jpg';
+import UI2 from './ui2.jpg';
+import UI3 from './ui3.jpg';
+import UI4 from './ui4.jpg';
+
+import WEB1 from './web-1.webp';
+import WEB2 from './web-2.webp';
+import WEB3 from './web-3.jpg';
+import WEB4 from './web-4.webp';
+import Mobile1 from './mobile-1.webp';
+import Mobile2 from './mobile-2.webp';
+import Mobile3 from './mobile-3.webp';
+import Mobile4 from './mobile-4.webp';
 
 const ImagePath = {
-   CV
+   CV,UiUx,WebDesign,MobileDesign,Profile,Finance,UI2,UI3,UI4,WEB1,WEB2,WEB3,WEB4,Mobile1,Mobile2,Mobile3,Mobile4
 };
 
 export default ImagePath;
