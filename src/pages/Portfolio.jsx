@@ -5,6 +5,8 @@ import ImagePath from '../assets/images/ImagePath';
 import AboutUs from '../components/AboutUs';
 import Profile from '../components/Profile';
 import PortfolioComponent from '../components/PortfolioComponent';
+import Resume from '../components/Resume';
+import Blog from '../components/Blog';
 
 const Portfolio = () => {
   const tabs = ["About Me", "Resume", "Portfolio", "Blog"];
@@ -69,7 +71,7 @@ const Portfolio = () => {
       <Profile />
 
       {/* 🔽 Main Content */}
-      <div className="container mx-auto px-4 pt-10 space-y-10">
+      <div className="container mx-auto px-4 pt-10 pb-10 space-y-10">
         {sectionIds.map((id, index) => (
           <section key={id} id={id} ref={(el) => (sectionRefs.current[index] = el)} className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-xl shadow-lg flex flex-col gap-5">
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, ease: "easeOut" }} viewport={{ once: true }} className="w-full flex items-center gap-3">
@@ -80,22 +82,13 @@ const Portfolio = () => {
               <AboutUs />
             )}
             {id === "resume" && (
-              <PortfolioComponent />
+              <Resume />
             )}
             {id === "portfolio" && (
              <PortfolioComponent />
             )}
             {id === "blog" && (
-              <div className="space-y-4 text-white/80 min-h-screen">
-                <div>
-                  <h3 className="text-xl font-semibold">Why Tailwind CSS is a Game-Changer</h3>
-                  <p className="text-sm">Tailwind helps you build beautiful UIs with less custom CSS and better responsiveness.</p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold">How to Animate Your React App</h3>
-                  <p className="text-sm">Framer Motion allows for easy and powerful animations in your frontend projects.</p>
-                </div>
-              </div>
+              <Blog/>
             )}
           </section>
         ))}

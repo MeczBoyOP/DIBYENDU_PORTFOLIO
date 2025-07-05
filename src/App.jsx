@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
+import ContactUs from './pages/ContactUs';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Portfolio />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>

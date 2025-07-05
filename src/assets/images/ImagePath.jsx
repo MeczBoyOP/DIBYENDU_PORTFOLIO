@@ -8,6 +8,9 @@ import Finance from './finance.jpg';
 import UI2 from './ui2.jpg';
 import UI3 from './ui3.jpg';
 import UI4 from './ui4.jpg';
+import Blog1 from './blog-1.jpg';
+import Blog2 from './blog-2.jpg';
+import Blog3 from './blog-3.jpg';
 
 import WEB1 from './web-1.webp';
 import WEB2 from './web-2.webp';
@@ -18,8 +21,11 @@ import Mobile2 from './mobile-2.webp';
 import Mobile3 from './mobile-3.webp';
 import Mobile4 from './mobile-4.webp';
 
+import Contact from './contact.svg';
+
 const ImagePath = {
-   CV,UiUx,WebDesign,MobileDesign,Profile,Finance,UI2,UI3,UI4,WEB1,WEB2,WEB3,WEB4,Mobile1,Mobile2,Mobile3,Mobile4
+   CV,UiUx,WebDesign,MobileDesign,Profile,Finance,UI2,UI3,UI4,WEB1,WEB2,WEB3,WEB4,
+   Mobile1,Mobile2,Mobile3,Mobile4,Contact,Blog1,Blog2,Blog3
 };
 
 export default ImagePath;
