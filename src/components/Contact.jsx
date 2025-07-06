@@ -4,7 +4,7 @@ import ImagePath from '../assets/images/ImagePath'
 
 const Contact = () => {
     return (
-        <div className='container mx-auto px-4 pt-30'>
+        <div className='container mx-auto px-4 pt-30 pb-10'>
             <div className="bg-white/5 backdrop-blur-md border border-white/10 p-6 rounded-xl shadow-lg flex flex-col gap-10">
                 <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6, ease: "easeOut" }} viewport={{ once: true }} className="w-full flex items-center gap-3">
                     <h2 className="text-2xl md:text-3xl font-extrabold bg-gradient-to-l from-white/30 via-[#00ffff] to-white/30 bg-clip-text text-transparent">Contact Me</h2>
