@@ -22,10 +22,20 @@ import Mobile3 from './mobile-3.webp';
 import Mobile4 from './mobile-4.webp';
 
 import Contact from './contact.svg';
+import Figma from './figma.png';
+import XD from './xd.png';
+import RN from './react-native.png';
+import Html from './html.png';
+import Css from './css.png';
+import Tailwind from './tailwind.png';
+import Bootstrap from './bootstrap.png';
+import React from './react.png';
+import Next from './next.png';
 
 const ImagePath = {
    CV,UiUx,WebDesign,MobileDesign,Profile,Finance,UI2,UI3,UI4,WEB1,WEB2,WEB3,WEB4,
-   Mobile1,Mobile2,Mobile3,Mobile4,Contact,Blog1,Blog2,Blog3
+   Mobile1,Mobile2,Mobile3,Mobile4,Contact,Blog1,Blog2,Blog3,Figma, XD,RN,Html,
+   Css,Tailwind, Bootstrap, React, Next
 };
 
 export default ImagePath;

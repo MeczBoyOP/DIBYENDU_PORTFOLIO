@@ -13,7 +13,6 @@ const PortfolioComponent = () => {
         {
             id: 1,
             type: "UI/UX Design",
-            title: "Project 1",
             image: ImagePath.Finance,
             title: "Finance App",
             description: "This is a Finance mobile app ui/ux design."
