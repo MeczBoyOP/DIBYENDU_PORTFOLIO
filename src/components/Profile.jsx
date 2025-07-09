@@ -17,7 +17,7 @@ const Profile = () => {
                     </div>
                     <span className='text-white/80 text-[14px] font-[400] mb-3'>Follow me on:</span>
                     <div className="w-full flex items-center gap-4">
-                        <a href="https://www.facebook.com/dibyendu.nayak.7545" target="_blank" rel="noopener noreferrer" className="relative w-10 h-10 rounded-[4px] bg-black/20 overflow-hidden group">
+                        {/* <a href="https://www.facebook.com/dibyendu.nayak.7545" target="_blank" rel="noopener noreferrer" className="relative w-10 h-10 rounded-[4px] bg-black/20 overflow-hidden group">
                             <span className="absolute inset-0 bg-[#1877F2] scale-y-0 origin-bottom transition-transform duration-500 ease-out group-hover:scale-y-100 z-0" />
                             <span className="relative z-10 flex items-center justify-center w-full h-full">
                                 <FaFacebookF className="w-6 h-6 text-white" />
@@ -28,19 +28,19 @@ const Profile = () => {
                             <span className="relative z-10 flex items-center justify-center w-full h-full">
                                 <FaInstagram className="w-6 h-6 text-white" />
                             </span>
-                        </a>
+                        </a> */}
                         <a href="https://github.com/MeczBoyOP" target="_blank" rel="noopener noreferrer" className="relative w-10 h-10 rounded-[4px] bg-black/20 overflow-hidden group">
                             <span className="absolute inset-0 bg-[#171515] scale-y-0 origin-bottom transition-transform duration-500 ease-out group-hover:scale-y-100 z-0" />
                             <span className="relative z-10 flex items-center justify-center w-full h-full">
                                 <FaGithub className="w-6 h-6 text-white" />
                             </span>
                         </a>
-                        <a href="https://www.linkedin.com/in/dibyendu-nayak-161301189/" target="_blank" rel="noopener noreferrer" className="relative w-10 h-10 rounded-[4px] bg-black/20 overflow-hidden group">
+                        {/* <a href="https://www.linkedin.com/in/dibyendu-nayak-161301189/" target="_blank" rel="noopener noreferrer" className="relative w-10 h-10 rounded-[4px] bg-black/20 overflow-hidden group">
                             <span className="absolute inset-0 bg-[#0A66C2] scale-y-0 origin-bottom transition-transform duration-500 ease-out group-hover:scale-y-100 z-0" />
                             <span className="relative z-10 flex items-center justify-center w-full h-full">
                                 <FaLinkedinIn className="w-6 h-6 text-white" />
                             </span>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
